@@ -30,8 +30,14 @@ Pane.prototype.split = function (vertical) {
 };
 
 Pane.prototype.merge = function () {
+  if (this.panes) {
+    this.panes.forEach(function (x) {
+      x.merge();
+    });
+    this.panes = null;
+  }
+  this.detach();
   this.tree.merge();
-  this.panes = null;
   return this;
 };
 

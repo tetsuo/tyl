@@ -1,0 +1,21 @@
+table
+ tr
+  td
+   table
+    tr
+     td
+      a
+       b
+  td
+   table
+    tr
+     td
+      table
+       tr
+        td
+         c
+    tr
+     td
+      table
+       tr
+        td
