@@ -1,6 +1,6 @@
 {
   "name": "tyl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "arranges layout elements in a grid",
   "main": "index.js",
   "scripts": {
