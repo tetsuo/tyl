@@ -1,0 +1,31 @@
+{
+  "name": "tyl",
+  "version": "0.1.0",
+  "description": "arranges layout elements in a grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetsuo/tyl.git"
+  },
+  "keywords": [
+    "grid",
+    "tile",
+    "layout",
+    "bsp"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetsuo/tyl/issues"
+  },
+  "homepage": "https://github.com/tetsuo/tyl",
+  "dependencies": {
+    "bsp-tree": "^1.0.0"
+  },
+  "devDependencies": {
+    "tap": "^1.2.0"
+  }
+}
